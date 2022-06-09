@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        var arr = ["flow","flower","flk"]
+        var count =1 
+        var first = arr[0].split("")
+        console.log(first)
+        for(var i = 1 ;i<arr.length ;i++)
+        {
+           var a =  arr[i].split("")
+           k = 0
+             
+            for(var i = 0 ; j< a.length ;j++)
+            {
+                if(a[i][i] == first[k])
+                {
+                   count++
+                }
+                //console.log()
+            }
+            k++
+        }
+        if(count == 1)
+        {
+           console.log("no") 
+        }
+        else
+        {
+            console.log(count)
+        }
+    </script>
+</body>
+</html>
